@@ -14,4 +14,4 @@ date_diff = get_date_diff(date.today().strftime("%m"), date.today().strftime("%d
 amount = pages//date_diff
 
 if __name__ == "__main__":
-    print("{}장".format(amount))
+    print("{}pages".format(amount))
